@@ -1,0 +1,29 @@
+{
+  "name": "canvas-syncing-assignment-part1",
+  "version": "1.0.0",
+  "description": "part 1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Test complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wyzwon/canvas-syncing-assignment-part1.git"
+  },
+  "author": "Thomas Bouffard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wyzwon/canvas-syncing-assignment-part1/issues"
+  },
+  "homepage": "https://github.com/wyzwon/canvas-syncing-assignment-part1#readme",
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb": "^16.0.0",
+    "eslint-plugin-import": "^2.7.0"
+  },
+  "dependencies": {
+    "socket.io": "^2.0.3"
+  }
+}
